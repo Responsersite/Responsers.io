@@ -17,7 +17,7 @@ body {
 }
 
 .header-image {
-    max-width: 100%;
+    max-width: 50%; /* Adjusted size */
     height: auto;
     margin-bottom: 20px;
 }
